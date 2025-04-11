@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { fly, fade } from 'svelte/transition';
   import { onMount } from 'svelte';
   import { getCards } from '$lib/api';
   import type { card } from '$lib/types';
@@ -47,7 +48,9 @@
 
 {#if cards.length > 0}
   <div class="card-list">
-    <Card card={cards[index]} />
+    {#key cards[index].id}
+      <Card card={cards[index]} />
+    {/key}
   </div>
 {:else}
   <p>Loading cards...</p>
