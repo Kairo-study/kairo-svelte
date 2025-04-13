@@ -20,7 +20,7 @@
   });
 </script>
 
-<div class="card"
+<div class="card top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 in:fly={{ x: 200, opacity: 0, duration: 300 }}
 out:fly={{ x: -200, opacity: 0, duration: 300 }}
 role="button"
@@ -40,7 +40,7 @@ on:keydown={handleKeydown}>
 <style>
   .card {
     perspective: 1000px;
-    position: absolute;
+    position: fixed;
     width: 500px;
     height: 320px;
     cursor: pointer;

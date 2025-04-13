@@ -4,6 +4,7 @@
   import { getCards } from '$lib/api';
   import type { card } from '$lib/types';
   import Card from '$lib/components/Card.svelte'
+  import Bar from '$lib/components/Bar.svelte'
 
   let cards: card[] = [];
 
@@ -45,6 +46,8 @@
     }
   }
 </script>
+
+<Bar />
 
 {#if cards.length > 0}
   <div class="card-list">
