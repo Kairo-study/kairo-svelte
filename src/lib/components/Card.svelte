@@ -41,8 +41,8 @@ on:keydown={handleKeydown}>
   .card {
     perspective: 1000px;
     position: fixed;
-    width: 500px;
-    height: 320px;
+    width: 675px;
+    height: 420px;
     cursor: pointer;
     transform-style: preserve-3d;
   }
@@ -62,8 +62,8 @@ on:keydown={handleKeydown}>
     background-color: #ffffff;
     border: 1px solid #dddddd;
     box-sizing: border-box;
-    width: 500px;
-    height: 320px;
+    width: 675px;
+    height: 420px;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
