@@ -9,7 +9,7 @@
    id="svg1"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    sodipodi:docname="logo.svg"
-   inkscape:export-filename="../static/favicon.png"
+   inkscape:export-filename="/home/zayan/Documents/kairo/src/kairo-svelte/static/favicon.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,8 +27,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="1.1367188"
-     inkscape:cx="264.79725"
-     inkscape:cy="260.83849"
+     inkscape:cx="265.2371"
+     inkscape:cy="260.83848"
      inkscape:window-width="1496"
      inkscape:window-height="794"
      inkscape:window-x="0"
@@ -42,23 +42,34 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g3"
-       transform="matrix(1.8564197,0,0,1.8564197,-312.19202,-249.68887)"
-       style="opacity:1">
-      <path
-         style="fill:#85e9a0;fill-opacity:0;stroke:#8c00b3;stroke-width:23;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.5;stroke-opacity:1"
-         d="M 200.86598,298.02062 411.27148,194.8591"
-         id="path1"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:#85e9a0;fill-opacity:0;stroke:#8c00b3;stroke-width:23;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.5;stroke-opacity:1"
-         d="m 262.15808,272.27491 149.1134,77.41581"
-         id="path2"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:#85e9a0;fill-opacity:0;stroke:#d10cff;stroke-width:20.3438;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.5;stroke-opacity:1"
-         d="m 268.15808,192.56118 v 159.6778"
-         id="path3" />
+       id="g6">
+      <circle
+         style="fill:#eba2ff;stroke:#8c00b3;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+         id="path4"
+         cx="255.99998"
+         cy="256"
+         r="253.43695" />
+      <g
+         id="g5"
+         transform="matrix(0.95304636,0,0,1.0030421,-13.979869,-0.77878262)">
+        <g
+           id="g4">
+          <path
+             style="fill:#85e9a0;fill-opacity:0;stroke:#8c00b3;stroke-width:42.6977;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.5;stroke-opacity:1"
+             d="M 60.699542,303.56248 451.30046,112.0514"
+             id="path1"
+             sodipodi:nodetypes="cc" />
+          <path
+             style="fill:#85e9a0;fill-opacity:0;stroke:#8c00b3;stroke-width:42.6977;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.5;stroke-opacity:1"
+             d="M 174.4834,255.76764 451.30046,399.48387"
+             id="path2"
+             sodipodi:nodetypes="cc" />
+        </g>
+        <path
+           style="fill:#85e9a0;fill-opacity:0;stroke:#d10cff;stroke-width:37.7666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.5;stroke-opacity:1"
+           d="M 185.62192,107.7855 V 404.21451"
+           id="path3" />
+      </g>
     </g>
   </g>
 </svg>
